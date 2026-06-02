@@ -40,9 +40,9 @@ class _TaximetroHomeState extends State<TaximetroHome> {
   StreamSubscription<Position>? _positionStreamSubscription;
   Position? _lastPosition;
 
-  // Configuración de tarifas (Modifica esto si quieres cambiar los precios)
-  final double _tarifaBase = 10.0; // Lo mínimo que cobras por arrancar
-  final double _precioPorKm = 5.0;  // Cuánto cobras por cada kilómetro recorrido
+  // Configuración de tarifas (Para cambiar los precios)
+  final double _tarifaBase = 3.0; // Lo mínimo que cobras por arrancar
+  final double _precioPorKm = 2.4;  // Cuánto cobras por cada kilómetro recorrido
 
   @override
   void initState() {
