@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Taxímetro Papá',
+      title: 'RideMeter',
       theme: ThemeData(
         primarySwatch: Colors.amber,
         scaffoldBackgroundColor: const Color(0xFF121212),
@@ -117,20 +117,22 @@ class _TaximetroHomeState extends State<TaximetroHome> {
 
     setState(() {
       _enViaje = false;
+      _montoDinero = 0.0;   // Resetea la tarifa a cero aquí
+  _distanciaKm = 0.0;   // Resetea la distancia aquí
     });
   }
 
-  @override
-  void dispose() {
-    _positionStreamSubscription?.cancel();
-    super.dispose();
-  }
+ @override
+void dispose() {
+  _positionStreamSubscription?.cancel();
+  super.dispose();
+}
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Taxímetro Papá', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text('RideMeter', style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: Colors.amber,
         // BOTÓN ARRIBA A LA IZQUIERDA PARA EL HISTORIAL
         leading: IconButton(
