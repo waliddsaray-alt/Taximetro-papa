@@ -22146,7 +22146,7 @@ $iE8:1}
 A.abr.prototype={
 $1(a){var s=A.cn().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/4c525dac5ebe5971c5708ef73558ed8edcf4a362/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/c416acfeb8126e097f758c664aaa3da929e27da0/":s)+a},
 $S:104}
 A.GI.prototype={
 gBa(){var s=this.b
@@ -68142,7 +68142,7 @@ A.aat.prototype={
 $0(){var s=this.a
 s.d=!0
 s.e=0
-s.f=10
+s.f=3
 s.w=null},
 $S:0}
 A.aau.prototype={
@@ -68154,7 +68154,7 @@ $S:445}
 A.aas.prototype={
 $0(){var s=this.a,r=s.e+this.b/1000
 s.e=r
-s.f=10+r*5},
+s.f=3+r*2.4},
 $S:0}
 A.aav.prototype={
 $0(){this.a.d=!1},
