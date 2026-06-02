@@ -68078,7 +68078,7 @@ $1(a){return!0},
 $S:25}
 A.EE.prototype={
 K(a){var s=null
-return new A.uZ(B.JO,"Tax\xedmetro Pap\xe1",A.aeF(s,s,B.bZ,B.yV,B.Ob,s),s)}}
+return new A.uZ(B.JO,"RideMeter",A.aeF(s,s,B.bZ,B.yV,B.Ob,s),s)}}
 A.xe.prototype={
 an(){return new A.Aj()}}
 A.Aj.prototype={
@@ -68157,7 +68157,9 @@ s.e=r
 s.f=3+r*2.4},
 $S:0}
 A.aav.prototype={
-$0(){this.a.d=!1},
+$0(){var s=this.a
+s.d=!1
+s.e=s.f=0},
 $S:0}
 A.aax.prototype={
 $0(){var s=A.aig(new A.aaw(),null,t.z)
@@ -72961,7 +72963,7 @@ B.Ko=new A.j(!0,B.bZ,null,null,null,null,14,null,null,null,null,null,null,null,n
 B.Om=new A.ee("DISTANCIA RECORRIDA",null,B.Ko,null,null)
 B.Mm=new A.j(!0,B.l,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.On=new A.ee("Historial de Viajes",null,B.Mm,null,null)
-B.Op=new A.ee("Tax\xedmetro Pap\xe1",null,B.wi,null,null)
+B.Op=new A.ee("RideMeter",null,B.wi,null,null)
 B.N8=new A.j(!0,B.qv,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Oq=new A.ee("Borrar",null,B.N8,null,null)
 B.KZ=new A.j(!0,B.it,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
